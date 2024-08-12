@@ -54,8 +54,10 @@ function App() {
         setIsRegistering(false);
         setError('');
       }
+      alert("User registered successfully Plase Login...");
     } catch (error) {
       setError('Registration failed');
+     
     }
   };
 
